@@ -3,4 +3,5 @@
  medidan (bmi$bmi) #Print Dataset median
  mean (bmi$bmi) #Print Dataset mean
  sortedBMI = sort(bmi$bmi)
- sortedBMI #Print Sorted
+ sortedBMI #Print sorted
+ quantile(sortedBMI)
