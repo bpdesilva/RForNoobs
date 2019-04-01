@@ -13,3 +13,7 @@ Before you read the below document or follow the code above, there are some requ
 Here's a sample of what we will be doing via the code above.
 
 ![Image 1](https://github.com/bpdesilva/RForNoobs/blob/master/Examples/scatterbell2.png)
+
+#### Lessons
+*  [Installing R](https://github.com/bpdesilva/RForNoobs/blob/master/Guides/InstallR.md)
+*  [Hello World](https://github.com/bpdesilva/RForNoobs/blob/master/Guides/Hello.md)
