@@ -4,7 +4,7 @@
  * Download the latest package.
  * Follow the installation guide and install it.
 
- ##### Installation Process for Mac OS using terminal
+ #### Installation Process for Mac OS using terminal
 
  * Open the terminal.
  * Type `brew tap homebrew/science` directs packages to utilze existing. 
