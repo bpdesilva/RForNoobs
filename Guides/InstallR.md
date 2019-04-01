@@ -17,7 +17,7 @@
 
  * Go to [R Project Official Website](https://cloud.r-project.org/bin/macosx/) follow the instructions.
 
-##### Installation Process for Linux using terminal
+#### Installation Process for Linux using terminal
 
  * Open the terminal
  * Type `apt-cache search "^r-.*" | sort` lists of available packages.
