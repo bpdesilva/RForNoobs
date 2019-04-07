@@ -1,0 +1,7 @@
+sal  = read.csv("/Users/buwnaekadesilva/Desktop/Salaries.csv")
+sortedSalary = sort(sal$Salary)
+plot(sal$Salary,sal$Yrs.since.phd)
+regressionModel = lm(sal$Yrs.since.phd ~ sal$Salary)
+abline(regressionModel)
+qqnorm(sortedSalary)
+qqline(sortedSalary)
