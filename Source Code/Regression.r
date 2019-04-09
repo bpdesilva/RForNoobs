@@ -1,4 +1,4 @@
-sal  = read.csv("/Users/buwnaekadesilva/Desktop/Salaries.csv")
+sal  = read.csv("//<Path>//")
 sortedSalary = sort(sal$Salary)
 plot(sal$Salary,sal$Yrs.since.phd)
 regressionModel = lm(sal$Yrs.since.phd ~ sal$Salary)

@@ -1,4 +1,4 @@
-sal  = read.csv("/Users/buwnaekadesilva/Desktop/Salaries.csv")
+sal  = read.csv("//<Path>//")
 sal
 boxplot(sal$Salary)
 boxplot(sal$Salary, horizontal = TRUE)
