@@ -1,0 +1,5 @@
+sal  = read.csv("//<Path>//")
+corVal = cor(sal$Salary,sal$Yrs.since.phd, method="pearson")
+Model = lm(Salary ~ Yrs.since.phd, data = sal)
+Testdata = data.frame(Salary=c(12000,10000,100000))
+predict(Model, newdata = Testdata, interval = "confidence")
