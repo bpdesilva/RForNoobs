@@ -20,6 +20,8 @@ ggplot(data=sal, aes(sal$Salary)) + #Defines X Axis
 salSD = sd(sal$Salary)
 salMean = mean(sal$Salary)
 ggplot(data=sal, aes(sal$Salary)) +
+geom_histogram(aes(y=..density..), #Defines Y Axis
+                 colour="black", fill="white") + # Bar Colors
   stat_function(fun = dnorm, args = c(mean = salMean, sd = salSD), col = "tomato")+
   labs(title="Histogram for Salary", x="Salary", y="Density") + # Label Name
   geom_vline(aes(xintercept=median(sal$Salary),
