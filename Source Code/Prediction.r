@@ -1,5 +1,7 @@
-sal  = read.csv("//<Path>//")
-corVal = cor(sal$Salary,sal$Yrs.since.phd, method="pearson")
-Model = lm(Salary ~ Yrs.since.phd, data = sal)
-Testdata = data.frame(Salary=c(12000,100000,400000))
-predict(Model, newdata = Testdata, interval = "confidence")
+sal = read.csv("Salaries.csv", header = TRUE)
+ServiceYears = sal$Yrs.service
+Salary = sal$Salary
+SincePhd = sal$Yrs.since.phd
+Model = lm (Salary ~SincePhd+ServiceYears)
+predict(Model,data.frame(SincePhd=2,ServiceYears=3)))
+corval = cor(salary,SincePhd,method="pearson")

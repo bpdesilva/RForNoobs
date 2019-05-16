@@ -30,4 +30,5 @@ geom_histogram(aes(y=..density..), #Defines Y Axis
   geom_vline(aes(xintercept=mean(sal$Salary),
                  color="mean"), linetype="dashed",
              size=1) +
-  scale_color_manual(name = "statistics", values = c(median = "blue", mean = "red"))
+  scale_color_manual(name = "statistics", values = c(median = "blue", mean = "red"))+
+  
