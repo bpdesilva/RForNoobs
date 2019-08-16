@@ -1,5 +1,9 @@
 # R For Noobs
 
+[![GitHub version](https://badge.fury.io/gh/bpdesilva%2FRForNoobs.svg)](https://badge.fury.io/gh/bpdesilva%2FRForNoobs)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/bpdesilva/RForNoobs/issues)  
+[![HitCount](http://hits.dwyl.io/bpdesilva/RForNoobs.svg)](http://hits.dwyl.io/bpdesilva/RForNoobs)
+
 R for absolute beginners.</br>
 Before you read the below document or follow the code above, there are some requirements.</br>
 
